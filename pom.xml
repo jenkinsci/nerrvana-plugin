@@ -28,8 +28,8 @@
   </licenses>
 
   <scm>
-    <connection>scm:git:ssh://github.com/jenkinsci/nerrvana-plugin.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/jenkinsci/nerrvana-plugin.git</developerConnection>
+    <connection>scm:git:https://github.com/jenkinsci/nerrvana-plugin.git</connection>
+    <developerConnection>scm:git:https://git@github.com/jenkinsci/nerrvana-plugin.git</developerConnection>
     <url>https://github.com/jenkinsci/nerrvana-plugin</url>
   </scm>
 
