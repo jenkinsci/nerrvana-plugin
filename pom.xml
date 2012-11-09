@@ -12,7 +12,7 @@
 
   <groupId>com.deepshiftlabs.nerrvana</groupId>
   <artifactId>NerrvanaPlugin</artifactId>
-  <version>1.02.00</version>
+  <version>1.02-SNAPSHOT</version>
   <packaging>hpi</packaging>
 
   <name>Nerrvana Plugin for Jenkins</name>
