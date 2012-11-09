@@ -7,23 +7,47 @@
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>1.450</version><!-- which version of Jenkins is this plugin built against? -->
+    <version>1.450</version>
   </parent>
 
-  <groupId>com.deepshiftlabs.nerrvana</groupId>
-  <artifactId>NerrvanaPlugin</artifactId>
-  <version>1.02-SNAPSHOT</version>
+  <artifactId>nerrvana-plugin</artifactId>
+  <version>1.02.00</version>
   <packaging>hpi</packaging>
-
   <name>Nerrvana Plugin for Jenkins</name>
   <description>Nerrvana is a robust cloud-based Selenium testing solution. Nerrvana Plugin is a software which enables continuous integration with Nerrvana cloud</description>
-  <url>https://github.com/deepshiftlabs/nerrvana-plugin-for-jenkins-ci</url>
+  <url>http://wiki.jenkins-ci.org/display/JENKINS/Nerrvana+Plugin</url>
   <organization>
     <name>Deep Shift Labs</name>
     <url>http://www.deepshiftlabs.com/</url>
   </organization>
+  <licenses>
+    <license>
+      <name>MIT license</name>
+      <comments>All source code is under the MIT license.</comments>
+    </license>
+  </licenses>
 
+  <scm>
+    <connection>scm:git:ssh://github.com/jenkinsci/nerrvana-plugin.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/jenkinsci/nerrvana-plugin.git</developerConnection>
+    <url>https://github.com/jenkinsci/nerrvana-plugin</url>
+  </scm>
 
+  <developers>
+    <developer>
+      <id>vic</id>
+      <name>Victor Orlov</name>
+      <email>wise@deepshiftlabs.com</email>
+    </developer>
+  </developers>
+
+  <distributionManagement>
+    <repository>
+      <id>maven.jenkins-ci.org</id>
+      <url>http://maven.jenkins-ci.org:8081/content/repositories/releases/</url>
+    </repository>
+  </distributionManagement>
+  
   <!-- get every artifact through maven.glassfish.org, which proxies all the artifacts that we need -->
   <repositories>
     <repository>
