@@ -11,7 +11,7 @@
   </parent>
 
   <artifactId>nerrvana-plugin</artifactId>
-  <version>1.02r-SNAPSHOT</version>
+  <version>1.02r</version>
   <packaging>hpi</packaging>
   <name>Nerrvana Plugin for Jenkins</name>
   <description>Nerrvana is a robust cloud-based Selenium testing solution. Nerrvana Plugin is a software which enables continuous integration with Nerrvana cloud</description>
