@@ -2,6 +2,10 @@
  Change log
  ------
 
+What's new in version 1.02.01 - 2013-01-09
+ 
+ * Execution status names changed
+
 What's new in version 1.02.00 - 2012-11-01
  
  * Project documentation (generated with 'mvn site')
