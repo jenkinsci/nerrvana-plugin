@@ -10,8 +10,9 @@
     <version>1.450</version>
   </parent>
 
+  <groupId>com.deepshiftlabs.nerrvana</groupId>
   <artifactId>nerrvana-plugin</artifactId>
-  <version>1.02.02-SNAPSHOT</version>
+  <version>1.02.02</version>
   <packaging>hpi</packaging>
   <name>Nerrvana Plugin for Jenkins</name>
   <description>Nerrvana is a robust cloud-based Selenium testing solution. Nerrvana Plugin is a software which enables continuous integration with Nerrvana cloud</description>
@@ -37,7 +38,7 @@
     <developer>
       <id>vic</id>
       <name>Victor Orlov</name>
-      <email>wise@deepshiftlabs.com</email>
+      <email>contact@nerrvana.com</email>
     </developer>
   </developers>
 
