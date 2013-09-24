@@ -10,7 +10,6 @@
     <version>1.450</version>
   </parent>
 
-  <groupId>com.deepshiftlabs.nerrvana</groupId>
   <artifactId>nerrvana-plugin</artifactId>
   <version>1.02.06-SNAPSHOT</version>
   <packaging>hpi</packaging>
